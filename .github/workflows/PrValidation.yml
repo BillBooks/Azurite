@@ -3,8 +3,6 @@ run-name: ${{ github.actor }}'s PR is being checked.
 
 on:
   pull_request:
-  schedule:
-    - cron: "0 19 * * 0"
 
 jobs:
   BlobTest_Ubuntu_Node22:
